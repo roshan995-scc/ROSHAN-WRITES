@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    background: linear-gradient(to top, #f0f4f8, #e0e4e8);
+    overflow-x: hidden;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #d76d77;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav button {
+    background: #d76d77;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+nav button:hover {
+    background: #b54c4c;
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.4);
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #d76d77;
+}
+
+.chapter-buttons {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.chapter-buttons h2 {
+    font-size: 2rem;
+    color: #d76d77;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-container button {
+    background: #d76d77;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.button-container button:hover {
+    background: #b54c4c;
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.4);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+    font-size: 0.875rem;
+    color: #666;
+}
